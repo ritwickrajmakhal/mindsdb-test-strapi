@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sellers",
+  "info": {
+    "singularName": "seller",
+    "pluralName": "sellers",
+    "displayName": "Seller"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "sellerid": {
+      "type": "uid",
+      "required": true
+    }
+  }
+}
